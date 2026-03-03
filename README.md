@@ -1,26 +1,29 @@
-# file-based-contact-managment-system
-contact management 
-## File-Based Contact Management System (C++)
+# 📇 Advanced Contact Management System (C++)
 
-A simple console-based Contact Management System using File Handling in C++.
+A file-based contact management system built using C++ with OOP principles.
 
 ## Features
+- Password Protection
 - Add Contact
-- View All Contacts
+- View Contacts (Formatted Output)
 - Search Contact
-- Data stored permanently in contacts.txt
+- Edit Contact
+- Delete Contact
+- Sort Contacts by Name
+- Persistent Storage using File Handling
 
-## Concepts Used
-- Classes & Objects
-- File Handling (fstream)
-- String Handling
-- CRUD operations
-- Menu Driven Program
+## Technologies Used
+- C++
+- OOP
+- File Handling
+- STL (vector, algorithm)
 
 ## How to Run
 
 Compile:
-g++ main.cpp -o contact
+g++ main.cpp Contact.cpp -o contact
 
 Run:
 ./contact
+
+Default Password: admin123
